@@ -1,16 +1,14 @@
 ---
 layout: page
 title: Sobre mim
-
+subtitle: Engenheiro e fascinado por dados
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Meu nome é Igor Savordelli Cazulli, graduando em Engenharia de Produção do Centro Universitário FEI. 
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+Tenho grande interesse nas áreas de Ciência de Dados, _Business Intelligence_ e _Machine Learning_ e, por esse motivo, decidi criar um website em que pudesse divulgar meus projetos pessoais e profissionais.
 
-What else do you need?
+Se houver o interesse em me contatar, pode me encontrar em:
 
-### my history
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](http://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+* [Linkedin](https://www.linkedin.com/in/igorcazulli/)
+* E-mail: <igorcazulli@gmail.com>
