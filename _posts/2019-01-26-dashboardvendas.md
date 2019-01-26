@@ -45,7 +45,24 @@ CALENDAR (DATE(2000;1;1); DATE(2025;12;31));
 )
 ~~~~
 
+Depois da tabela calendário, criei a partir da tabela original as seguintes tabelas de consulta:
 
+* Cliente;
+
+* Estados;
+
+* Fabricantes;
+
+* Modelos (dos veículos);
+
+* Cor.
+
+Ao final, permaneceram 7 tabelas, sendo 6 delas de consulta e 1 tabela de fatos, que é a tabela original.
+
+Nos relacionamentos do Power BI, realizei um _star schema_ conforme abaixo:
+
+![star](/img/starschema.png)
+      
 
 
 
