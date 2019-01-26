@@ -4,7 +4,7 @@ title: Projetos
 subtitle: O que tem ocupado meu tempo livre
 ---
 
-Aqui está uma coleção de projetos pessoais e profissionais que tenho desenvolvido:
+Aqui está uma coleção de projetos pessoais e profissionais que desenvolvi:
 
 ## Power BI
 
