@@ -24,7 +24,7 @@ description: Portfólio online de projetos
 # List of links in the navigation bar
 navbar-links:
   Sobre Mim: aboutme
-  Projetos: 
+  Projetos: projetos
   #Resources:
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
    # - Learn markdown: "http://www.markdowntutorial.com/"
