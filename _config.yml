@@ -24,6 +24,7 @@ description: Portfólio online de projetos
 # List of links in the navigation bar
 navbar-links:
   Sobre Mim: "Engenheiro e fascinado por dados."
+  Projetos: 
   #Resources:
     #- Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
    # - Learn markdown: "http://www.markdowntutorial.com/"
