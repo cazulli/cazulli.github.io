@@ -22,6 +22,31 @@ A estrutura dos dados recebidos foi da seguinte forma (primeiras 5 linhas):
       
 Os dados originais apresentam 458 linhas.   Trata-se de uma base de dados bastante compacta, mas ,mesmo se houvessem milhões de linhas, nada diferiria em nossa análise.
 
+Importanto os dados no Power BI, o primeiro passso realizado foi a criação de uma nova tabela vaiza, com o propósito de criar uma tabela de calendário, que será nossa primeira tabela de consulta. 
+
+A forma que acho mais prática de criar a tabela é simplesmente copiando o código DAX abaixo (retirei deste [site](https://kohera.be/blog/power-bi/how-to-create-a-date-table-in-power-bi-in-2-simple-steps/)):
+
+~~~~
+Date =
+ADDCOLUMNS (
+CALENDAR (DATE(2000;1;1); DATE(2025;12;31));
+"DateAsInteger"; FORMAT ( [Date]; "YYYYMMDD" );
+"Year"; YEAR ( [Date] );
+"Monthnumber"; FORMAT ( [Date]; "MM" );
+"YearMonthnumber"; FORMAT ( [Date]; "YYYY/MM" );
+"YearMonthShort"; FORMAT ( [Date]; "YYYY/mmm" );
+"MonthNameShort"; FORMAT ( [Date]; "mmm" );
+"MonthNameLong"; FORMAT ( [Date]; "mmmm" );
+"DayOfWeekNumber"; WEEKDAY ( [Date] );
+"DayOfWeek"; FORMAT ( [Date]; "dddd" );
+"DayOfWeekShort"; FORMAT ( [Date]; "ddd" );
+"Quarter"; "Q" & FORMAT ( [Date]; "Q" );
+"YearQuarter"; FORMAT ( [Date]; "YYYY" ) & "/Q" & FORMAT ( [Date]; "Q" )
+)
+~~~~
+
+
+
 
 
 ![Dashboard](/img/Dashboard.png)
