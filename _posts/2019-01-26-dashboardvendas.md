@@ -2,7 +2,7 @@
 layout: post
 title: Dashboard Vendas Automotivas
 subtitle: Resultados anuais de vendas
-share-img: "cazulli.github.io/imgPosts/2018-monterey-2019-bugatti-divo-5-1200x630-c-ar1.91.jpg"      
+bigimg: /imgPosts/2018-monterey-2019-bugatti-divo-5-1200x630-c-ar1.91.jpg      
 tags: [power bi, BI]
 comments: false
 ---
