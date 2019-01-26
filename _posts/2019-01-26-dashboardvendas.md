@@ -84,12 +84,23 @@ A partir da tabela original (VendaCarros), criei as principais medidas que seria
 
 * **Variação Mês Anterior Volume:** diferença mensal (em %) no volume de vendas.
 
+Determinadas as medidas, ocultei todas as chaves externas do relatório e campos não utilizados, para garantir uma melhor usabilidade.
 
-
-
+No final, o _dashboard_ desenvolvido foi o seguinte:
 
 
 ![Dashboard](/img/Dashboard.png)
+
+Na região superior, encontra-se os principais filtros do relatório, que são os filtros de data e cliente. A partir disso, todos as outras informações são geradas dinamicamente.
+
+À esquerda, constam todos os principais indicadores de resultado. Ao meio, é possível ver a evolução (ou involução) das vendas e custos no período selecionado.
+
+Estão disponíveis, também, informações quanto às vendas regionais e vendas mensais.
+
+Por fim, a matriz de produtos detalha os resultados quanto aos produtos vendidos, classificados por fabricante e modelo de veículo.
+
+
+### Esta é minha primeira postagem e meu primeiro projeto, então espero grandes evoluções no futuro!
 
 
 
