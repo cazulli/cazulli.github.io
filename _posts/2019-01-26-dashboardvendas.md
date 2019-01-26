@@ -99,6 +99,9 @@ Estão disponíveis, também, informações quanto às vendas regionais e vendas
 
 Por fim, a matriz de produtos detalha os resultados quanto aos produtos vendidos, classificados por fabricante e modelo de veículo.
 
+Link para download do _dataset_ original e do arquivo Power BI:
+
+[Dashboard](https://github.com/cazulli/Projetos-Power-BI/tree/master/Dashboard%20Vendas%20Automotivas)
 
 ### Esta é minha primeira postagem e meu primeiro projeto, então espero grandes evoluções no futuro!
 
