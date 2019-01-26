@@ -14,4 +14,6 @@ Power Query e Power Pivot, que são conceitos já presentes no Power BI) e no [D
 #### 1. _Dashboard_ de Vendas Automotivas
 
 Primeiro projeto de Power BI desenvolvido, cujo _dataset_ foi adquirido através do curso do Data Science Academy (DSA).
-Trata-se de um relatório simples dos resultados de uma empresa fictícia que vende automóveis de alto padrão. [+ Detalhes]
+Trata-se de um relatório simples dos resultados de uma empresa fictícia que vende automóveis de alto padrão. **[+ Detalhes]**(
+        cazulli.github.io/_posts/dashboardvendas)
+      
